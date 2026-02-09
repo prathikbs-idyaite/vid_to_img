@@ -7,7 +7,6 @@ import imagehash
 import numpy as np
 import time
 from PIL import Image
-from pyzbar.pyzbar import decode
 from skimage.metrics import structural_similarity as ssim
 from pathlib import Path
 
@@ -135,7 +134,7 @@ class FrameScorer:
 
         text_score = ocr_score(pil)
 
-        qr_score = 100 if decode(pil) else 0
+        qr_score = 0
 
         semantic = clip_score(pil)
 
@@ -311,3 +310,4 @@ def save_frames(frames, output_folder="output_frames"):
 #     print("Frames returned:", len(frames))
 
 #     save_frames(frames)
+
