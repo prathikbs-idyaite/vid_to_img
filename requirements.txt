@@ -1,19 +1,18 @@
 streamlit
 
-opencv-python-headless
 numpy
 Pillow
+opencv-python-headless
 
-av
-imagehash
-pyzbar
 scikit-image
-
-torch==2.1.0+cpu
-torchvision==0.16.0+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
-
+imagehash
 ftfy
 regex
 tqdm
+
+torch
+torchvision
+
 git+https://github.com/openai/CLIP.git
+
+av
