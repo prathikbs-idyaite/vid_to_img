@@ -13,6 +13,8 @@ tqdm
 torch
 torchvision
 
-git+https://github.com/openai/CLIP.git
+open-clip-torch>=2.24.0
+
 
 av
+
