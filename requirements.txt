@@ -1,0 +1,19 @@
+streamlit
+
+opencv-python-headless
+numpy
+Pillow
+
+av
+imagehash
+pyzbar
+scikit-image
+
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
